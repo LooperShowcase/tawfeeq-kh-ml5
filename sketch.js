@@ -21,7 +21,7 @@ function setup() {
   frameRate(50);
   wordClassiFier.classify(hd);
 }
-function hd(error, resulys) {
+function hd(error, results) {
   let word = results[0].label;
   if (word === " up ") {
     player.jump();
