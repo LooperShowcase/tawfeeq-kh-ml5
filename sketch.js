@@ -13,7 +13,7 @@ function preload() {
   let options = {
     probabillityThreshold: 0.85,
   };
-  wordClassiFier = ml5.soundClassifier("SpeechCommands18w");
+  wordClassiFier = ml5.soundClassifier("SpeechCommands18w", options);
 }
 function setup() {
   createCanvas(1880, 800);
