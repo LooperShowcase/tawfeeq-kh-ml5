@@ -23,7 +23,7 @@ function setup() {
 }
 function hd(error, results) {
   let word = results[0].label;
-  if (word === " up ") {
+  if (word === "up") {
     player.jump();
   }
 }
