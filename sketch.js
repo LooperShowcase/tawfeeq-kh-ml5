@@ -25,6 +25,7 @@ function hd(error, results) {
   let word = results[0].label;
   if (word === "up") {
     player.jump();
+    console.log("up");
   }
 }
 function keyPressed() {
